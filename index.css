@@ -1,0 +1,34 @@
+* {
+    font-family: 'Lemonada';
+    padding: 0;
+    margin: 0;
+    color: #00ECC1;
+    background-color: #000;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .date-container, .time-container {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-radius: 20px;
+    color: #E5E4E2;
+  }
+  
+  .date, .time {
+    font-size: 60px;
+  }
